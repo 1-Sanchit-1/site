@@ -4,7 +4,11 @@ on:
   push:
     branches:
       - main
-
+permissions:
+  pull-requests: write
+  issues: write
+  repository-projects: write
+  
 jobs:
   deploy:
     name: Publish site
