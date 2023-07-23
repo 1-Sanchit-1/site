@@ -20,7 +20,6 @@ export default defineConfig({
     lastUpdatedText: 'Updated Date',
     footer: {
       message: ' <</>> with ♥️ by S@Nchit  ',
-      // copyright: 'Copyright © 2019-present Evan You'
     },
     editLink: {
       text: 'Edit this page on GitHub',
