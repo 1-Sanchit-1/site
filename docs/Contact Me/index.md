@@ -48,7 +48,7 @@ There is no better exercise for your heart than reaching down and helping to lif
 
  :::tip [Linkedin](https://www.linkedin.com/in/sanchit-gupta-15a1b9229/)  
 
-[![Linkedin](/site/icons8-linkedin.svg)](https://www.linkedin.com/in/sanchit-gupta-15a1b9229/)  
+[![Linkedin](/icons8-linkedin.svg)](https://www.linkedin.com/in/sanchit-gupta-15a1b9229/)  
  :::    
 
 :::info Issue
