@@ -40,15 +40,15 @@ There is no better exercise for your heart than reaching down and helping to lif
  :::warning [Github](https://github.com/1-Sanchit-1/)  
   
   <!-- [![name](link to image on GH)](link to your URL) -->
-  <!-- [![](../assets/Sanchit_Gupta.jpg)] -->
+  <!-- [![](../resource/Sanchit_Gupta.jpg)] -->
  <!-- [Instagram]()
  [Twitter]() -->
-[![Github](../assets/icons8-github.svg)](https://github.com/1-Sanchit-1/)  
+[![Github](../resource/icons8-github.svg)](https://github.com/1-Sanchit-1/)  
  :::
 
  :::tip [Linkedin](https://www.linkedin.com/in/sanchit-gupta-15a1b9229/)  
 
-[![Linkedin](../assets/icons8-linkedin.svg)](https://www.linkedin.com/in/sanchit-gupta-15a1b9229/)  
+[![Linkedin](../resource/icons8-linkedin.svg)](https://www.linkedin.com/in/sanchit-gupta-15a1b9229/)  
  :::    
 
 :::info Issue
