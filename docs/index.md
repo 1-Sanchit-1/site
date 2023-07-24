@@ -12,7 +12,7 @@ hero:
   name: "🗯️ Sanchit Gupta"
   text: " Knowledge is power"
   tagline : The principal goal of education in the schools should be creating men and women who are capable of doing new things , not simply repeating what other generations have done
-  image: 'assets/network.png' 
+  image: '/assets/network.png' 
   src: 
   alt: ⚡
   actions:

@@ -25,7 +25,7 @@ export default defineConfig({
       text: 'Edit this page on GitHub',
       pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path'
     },
-    logo : 'assets/Sanchit_Gupta.jpg', 
+    logo : '/assets/Sanchit_Gupta.jpg', 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
