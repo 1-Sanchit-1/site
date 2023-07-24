@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
-  base: '/site/',
+  base: '/site',
   lang: 'en-US',
   title: "Sanchit Gupta",
   description: "Problem Solver",
@@ -25,7 +25,7 @@ export default defineConfig({
       text: 'Edit this page on GitHub',
       pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path'
     },
-    logo : '/resource/Sanchit_Gupta.jpg', 
+    logo : '/site/Sanchit_Gupta.jpg', 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
