@@ -44,10 +44,11 @@ jobs:
         run: npm ci # or pnpm install / yarn install
       - name: Build with VitePress
         run: npm run docs:build # or pnpm docs:build / yarn docs:build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: docs/.vitepress/dist
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vitepress/dist
 
   # Deployment job
   deploy:
