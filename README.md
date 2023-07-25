@@ -1,4 +1,4 @@
-# My website (San_Glams)
+# My website
 
  
 Hii 🖐️ there !!  , You can learn more about me or gain my knowledge in a nutshell right here !
