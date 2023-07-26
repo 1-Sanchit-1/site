@@ -12,16 +12,16 @@ prev:
 
 ---
 
-# Projects
+# ✍️Projects
 <hr>
 
-:::details Project 
+:::danger ✍️Project 
 Every project is an opportunity to learn, to figure out problems and challenges, to invent and reinvent
 :::
 
 <hr>
 
-:::warning Project-1
+:::warning ✍️Project-1
 :::details Games Info App
 :::details App Code
 [App code Link](https://github.com/1-Sanchit-1/Appophilia)
@@ -36,9 +36,10 @@ This application enables users to watch PC games and read reviews
 
 <hr>
 
-:::tip Project-2
+:::tip ✍️Project-2
 :::details The Yoga Instructor ( Team Project )
-:::details App code []()
+:::details App code 
+[Code Link](https://github.com/1-Sanchit-1/yoga_mentor)
 :::details TeckStack 
  numpy , matplotlib , openCV 
 :::details Aim 

@@ -22,11 +22,15 @@ hero:
     - theme: brand
       text: Resume 
       link: "https://drive.google.com/file/d/1mDcTA_NDJHNlMybOTgnuTeGueX4wQYc0/view?usp=sharing"
+    - theme: alt
+      text: Next Page
+      link: /Education/index
 
 features:
   - icon: 🎭
     title: Languages
     details:  C/C++ , Java , python , Bash , Dart , Kotlin , SQL , HTML , CSS
+    # link: /interview/
   - icon: 🎭
     title: Tools
     details: Git/GitHub , VS Code , Linux , Android Studio , Figma , Canvas
@@ -37,6 +41,5 @@ features:
     title: Soft Skills
     details: Problem Solving , Teamwork , Debugging , Leadership , Negotiation
 
-
-
 ---
+

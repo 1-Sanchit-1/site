@@ -14,12 +14,17 @@ next:
 
 
 # Reach Out to me 🕴️ !!
-  You can message me  `sanchitguptaghj@gmail.com` ,  
+
+<hr>
+
+  You can message me  <span style="color:yellow" >sanchitguptaghj@gmail.com </span>,  
  I will reply with in a 24 hours. 
  I can help you with
  C/C++ , Java , python , Bash , Dart , Kotlin , SQL , HTML , CSS ,
  Git/GitHub , VS Code , Linux , Android Studio , Figma , Canvas ,
  Flutter , Firebase , Numpy , Pandas , Matplotlib , ML , Android Development.
+
+<hr>
 
 :::danger 
 There is no better exercise for your heart than reaching down and helping to lift someone up
@@ -52,5 +57,5 @@ There is no better exercise for your heart than reaching down and helping to lif
  :::    
 
 :::info Issue
-Found a issue with the site feel free to create [] an issue.
+Found a issue with the site feel free to create an <span style="color:red">[issue](https://github.com/1-Sanchit-1/site/issues)</span> 
 :::

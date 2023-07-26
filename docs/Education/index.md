@@ -11,9 +11,11 @@ next:
   link: '/Projects/index'
 
 ---
+# 📚 Education 
 
-# Education 
-:::details Education 
+<hr>
+
+:::danger 📚Education 
  Intelligence plus character 
 :::
 
@@ -38,7 +40,7 @@ next:
 <hr>
 
 :::tip 🏛️Class XII 
-```bash
+```XII
 
   St. Xavier's Senior Secondary School , Kannauj               
 Class XII -- Central Board of Secondary Education             
