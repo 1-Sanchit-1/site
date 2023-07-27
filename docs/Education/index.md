@@ -40,8 +40,7 @@ next:
 <hr>
 
 :::tip 🏛️Class XII 
-```XII
-
+```
   St. Xavier's Senior Secondary School , Kannauj               
 Class XII -- Central Board of Secondary Education             
 

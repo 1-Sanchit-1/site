@@ -19,13 +19,13 @@ export default defineConfig({
     },
     lastUpdatedText: 'Updated Date',
     footer: {
-      message: ' <</>> with ♥️ by S@Nchit  ',
+      message:   ' <</>> with ♥️ by S@Nchit  ',
     },
     editLink: {
       text: 'Edit this page on GitHub',
       pattern: 'https://github.com/1-Sanchit-1/site'
     },
-    logo : '/sanchit.jpg', 
+    logo : '/solution.png', 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
