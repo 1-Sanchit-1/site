@@ -27,17 +27,17 @@ hero:
       link: /Education/index
 
 features:
-  - icon: 🎭
+  - icon: 🕸️
     title: Languages
     details:  C/C++ , Java , python , Bash , Dart , Kotlin , SQL , HTML , CSS
     # link: /interview/
-  - icon: 🎭
+  - icon: 🕸️
     title: Tools
     details: Git/GitHub , VS Code , Linux , Android Studio , Figma , Canvas
-  - icon: 🎭
+  - icon: 🕸️
     title:  Technologies
     details: Flutter , Firebase , Numpy , Pandas , Matplotlib
-  - icon: 🎭
+  - icon: 🕸️
     title: Soft Skills
     details: Problem Solving , Teamwork , Debugging , Leadership , Negotiation
 

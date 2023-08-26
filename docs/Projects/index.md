@@ -37,7 +37,7 @@ This application enables users to watch PC games and read reviews
 <hr>
 
 :::tip ✍️Project-2
-:::details The Yoga Instructor ( Team Project )
+:::details The Yoga Instructor
 :::details App code 
 [Code Link](https://github.com/1-Sanchit-1/yoga_mentor)
 :::details TeckStack 
