@@ -31,7 +31,7 @@ next:
  • I have studied basic software engineering subjects Data Structures and Algorithms , Design and Analysis of Algorithm , OOPS , DBMS , Computer Network , Operating System ,etc...
 
 :::details CGPA       
-7.87 Till Forth Semister 
+7.93 Till Fifth Semister 
 
 :::
 

@@ -9,9 +9,10 @@ next:
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 hero:
-  name: "🗯️ Sanchit Gupta"
-  text: " Knowledge is power"
-  tagline : The principal goal of education in the schools should be creating men and women who are capable of doing new things , not simply repeating what other generations have done
+  name: "🗯️ 🌐 Hello 🌐"
+  text: " I'm Sanchit Gupta :) "
+  tagline : I am a developer specializing in backend development and machine learning, skilled in C++, Python, and Django.
+      Currently pursuing B.Tech in Computer Science and Business from IIIT Lucknow. Passionate about innovative solutions, I enjoy chess and reading articles.
   image: '/network.png' 
   src: 
   alt: ⚡
@@ -27,17 +28,17 @@ hero:
       link: /Education/index
 
 features:
-  - icon: 🕸️
+  - icon: 💻
     title: Languages
-    details:  C/C++ , Java , python , Bash , Dart , Kotlin , SQL , HTML , CSS
+    details:  C/C++ , Java , python , Bash , Dart  , SQL 
     # link: /interview/
-  - icon: 🕸️
+  - icon: 💻
     title: Tools
     details: Git/GitHub , VS Code , Linux , Android Studio , Figma , Canvas
-  - icon: 🕸️
+  - icon: 💻
     title:  Technologies
-    details: Flutter , Firebase , Numpy , Pandas , Matplotlib
-  - icon: 🕸️
+    details: Django, Django REST Framework, PostgreSQL, SQLite, HTML, CSS, JavaScript, Docker ,Machine Learning , Natural language processing
+  - icon: 💻
     title: Soft Skills
     details: Problem Solving , Teamwork , Debugging , Leadership , Negotiation
 

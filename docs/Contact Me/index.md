@@ -20,9 +20,9 @@ next:
   You can message me  <span style="color:yellow" >sanchitguptaghj@gmail.com </span>,  
  I will reply with in a 24 hours. 
  I can help you with
- C/C++ , Java , python , Bash , Dart , Kotlin , SQL , HTML , CSS ,
- Git/GitHub , VS Code , Linux , Android Studio , Figma , Canvas ,
- Flutter , Firebase , Numpy , Pandas , Matplotlib , ML , Android Development.
+ C/C++ ||  Java ||  python || Django ||  Django REST Framework || REST APIs ||   Bash ||  Dart ||  SQL ||  HTML || CSS ||
+ Git/GitHub ||  VS Code || Linux || Android Studio || Canvas ||
+ Flutter || Machine Learning.
 
 <hr>
 
@@ -38,7 +38,7 @@ There is no better exercise for your heart than reaching down and helping to lif
 
 
 
- # Lets Connect 🫂 !!
+ # Lets Connect !!
 
 
   

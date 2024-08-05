@@ -12,6 +12,8 @@ prev:
 
 ---
 
+
+
 # ✍️Projects
 <hr>
 
@@ -22,16 +24,17 @@ Every project is an opportunity to learn, to figure out problems and challenges,
 <hr>
 
 :::warning ✍️Project-1
-:::details Games Info App
-:::details App Code
-[App code Link](https://github.com/1-Sanchit-1/Appophilia)
+:::details AgroSmart
+:::details  App Code
+[App code Link](https://github.com/1-Sanchit-1/CROP-YIELD-PREDICTION)
 :::details TeckStack 
-Flutter , Dart , API , Firebase
+Django, Python,Machine Learning, HTML,CSS,Javascript 
 :::details Aim 
-API integration , Authentication , and UI Design
-:::details Project Abstract 
-This application enables users to watch PC games and read reviews 
--offering acomprehensive platform for gamers
+Consolidated soil nutrient analysis, rainfall data, crop recommendation, and yield prediction systems using
+machine learning. Enhanced decision-making for farmers, optimizing crop selection and yield forecasts.
+:::details Project Features
+ soil details, rainfall, crop recommendation, seed and fertilizer requests, secure logout .
+ Integrated Virtual Market for organic products, facilitating interactions between visitors, officers, and sellers.
 :::
 
 <hr>
@@ -49,4 +52,42 @@ Detection and measurement of correct angles during yoga poses
 :::details Project Abstract 
  Guide the users in performing the correct yoga pose in real-time
 :::
+
+
+
+
+<hr>
+
+:::warning ✍️Project-3
+:::details Blogs Site
+:::details App Code
+[App code Link](https://github.com/1-Sanchit-1/Blogs)
+:::details TeckStack 
+Python , Django , Bootstrap , SQLite
+:::details Aim 
+Blog Site is a web application built using the Django framework that allows users to create, publish, and
+manage blog posts. It provides a user-friendly interface for both administrators and visitors to interact with
+
+:::
+
+<hr>
+
+
+<hr>
+
+:::tip ✍️Project-4
+:::details Games Info App
+:::details App Code
+[App code Link](https://github.com/1-Sanchit-1/Appophilia)
+:::details TeckStack 
+Flutter , Dart , API , Firebase
+:::details Aim 
+API integration , Authentication , and UI Design
+:::details Project Abstract 
+This application enables users to watch PC games and read reviews 
+-offering acomprehensive platform for gamers
+:::
+
+<hr>
+
 
