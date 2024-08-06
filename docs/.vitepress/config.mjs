@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/site',
-  outDir: '../dist',
   lang: 'en-US',
   title: "Sanchit Gupta",
   description: "Problem Solver",
