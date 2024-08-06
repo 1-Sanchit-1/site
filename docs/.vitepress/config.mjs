@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/site',
+  outDir: '../dist',
   lang: 'en-US',
   title: "Sanchit Gupta",
   description: "Problem Solver",
@@ -28,11 +29,11 @@ export default defineConfig({
     logo : '/solution.png', 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Education', link: '/Education/index' },
-      { text: 'Projects', link: '/Projects/index' },
-      { text: 'Blogs', link: '/Blogs/index' },
-      { text: 'Contact Me', link: '/Contact Me/index' }
+      { text: '🏠 Home', link: '/' },
+      { text: '🎓 Education', link: '/Education/index' },
+      { text: '🚀 Projects', link: '/Projects/index' },
+      { text: '📝 Blogs', link: '/Blogs/index' },
+      { text: '📩 Contact Me', link: '/Contact Me/index' }
     ],
     
     // sidebar: [

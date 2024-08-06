@@ -28,7 +28,7 @@ Every project is an opportunity to learn, to figure out problems and challenges,
 :::details  App Code
 [App code Link](https://github.com/1-Sanchit-1/CROP-YIELD-PREDICTION)
 :::details TeckStack 
-Django, Python,Machine Learning, HTML,CSS,Javascript 
+Django || Python || Machine Learning ||  HTML || CSS || Javascript 
 :::details Aim 
 Consolidated soil nutrient analysis, rainfall data, crop recommendation, and yield prediction systems using
 machine learning. Enhanced decision-making for farmers, optimizing crop selection and yield forecasts.
@@ -44,7 +44,7 @@ machine learning. Enhanced decision-making for farmers, optimizing crop selectio
 :::details App code 
 [Code Link](https://github.com/1-Sanchit-1/yoga_mentor)
 :::details TeckStack 
- numpy , matplotlib , openCV 
+ numpy || matplotlib || openCV 
 :::details Aim 
  A pre-trained deep learning model , to estimate body poses in real time and predict yoga asanas
 :::details  Mypart 
@@ -55,15 +55,36 @@ Detection and measurement of correct angles during yoga poses
 
 
 
+<hr>
+
+:::info ✍️Project-3
+:::details LLAMA_Chatbot(Finderr)
+:::details App Code
+[App code Link](https://github.com/1-Sanchit-1/LLAMA_Chatbot/tree/master)
+:::details TeckStack 
+Python ||
+GPT 3.5 || 
+JavaScript || 
+HTML , CSS || 
+Llama-Index || 
+Django
+:::details Aim 
+Finderr harnesses the power of the LlamaIndex, employing Retrieval Augmented Generation (RAG) to enrich its model with custom data sources. This enables the chatbot to offer automated assistance to users seeking college-related information. 
+Finderr is designed to elevate the user experience by providing swift and accurate responses to their inquiries.
+:::
 
 <hr>
 
-:::warning ✍️Project-3
+
+
+<hr>
+
+:::warning ✍️Project-4
 :::details Blogs Site
 :::details App Code
 [App code Link](https://github.com/1-Sanchit-1/Blogs)
 :::details TeckStack 
-Python , Django , Bootstrap , SQLite
+Python || Django || Bootstrap || SQLite
 :::details Aim 
 Blog Site is a web application built using the Django framework that allows users to create, publish, and
 manage blog posts. It provides a user-friendly interface for both administrators and visitors to interact with
@@ -75,12 +96,12 @@ manage blog posts. It provides a user-friendly interface for both administrators
 
 <hr>
 
-:::tip ✍️Project-4
+:::danger ✍️Project-5
 :::details Games Info App
 :::details App Code
 [App code Link](https://github.com/1-Sanchit-1/Appophilia)
 :::details TeckStack 
-Flutter , Dart , API , Firebase
+Flutter || Dart || API || Firebase
 :::details Aim 
 API integration , Authentication , and UI Design
 :::details Project Abstract 
