@@ -29,15 +29,14 @@ hero:
 features:
   - icon: 💻
     title: Languages
-    details: C/C++ , Java , python , Bash , Dart  , SQL
+    details: C, C++, Python, Java, JavaScript, SQL
     # link: /interview/
   - icon: 💻
     title: Tools
-    details: Git/GitHub , VS Code , Linux , Android Studio , Figma , Canvas
+    details: Git/GitHub , VS Code , Linux , Android Studio , Canvas
   - icon: 💻
     title: Technologies
-    details: MongoDB, Express.js, React, Node.Js, Bootstrap, Django, Django REST Framework, Docker,
-    Machine Learning.
+    details: MongoDB, Express.js, React, Node.Js, Bootstrap, Django, Django REST Framework, Docker,Machine Learning
   - icon: 💻
     title: Soft Skills
     details: Problem Solving , Teamwork , Debugging , Leadership , Negotiation
