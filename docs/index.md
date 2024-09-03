@@ -36,7 +36,8 @@ features:
     details: Git/GitHub , VS Code , Linux , Android Studio , Figma , Canvas
   - icon: 💻
     title: Technologies
-    details: Django, Django REST Framework, PostgreSQL, SQLite, HTML, CSS, JavaScript, Docker ,Machine Learning , Natural language processing
+    details: MongoDB, Express.js, React, Node.Js, Bootstrap, Django, Django REST Framework, Docker,
+    Machine Learning.
   - icon: 💻
     title: Soft Skills
     details: Problem Solving , Teamwork , Debugging , Leadership , Negotiation
