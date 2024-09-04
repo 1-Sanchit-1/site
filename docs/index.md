@@ -21,7 +21,7 @@ hero:
       link: /Contact Me/index
     - theme: brand
       text: Resume
-      link: "https://drive.google.com/drive/folders/1oxo4uEb82zY95_lXmdxxkc5JZ3jhghKH"
+      link: "https://drive.google.com/file/d/1FioE-UFp2ET-HiNgd907b1mvEmKbahSP/view"
     - theme: alt
       text: Next Page
       link: /Education/index
