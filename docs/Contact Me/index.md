@@ -2,8 +2,8 @@
 lastUpdated: true
 
 prev:
-  text: "Blogs"
-  link: "/Blogs/index"
+  text: "Learning"
+  link: "/Learning/index"
 
 next:
   text: "Home"
