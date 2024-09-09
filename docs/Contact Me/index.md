@@ -10,48 +10,34 @@ next:
   link: "/index"
 ---
 
-# Reach Out to me 🕴️ !!
+# <> Reach Out to Me </>!
 
-<hr>
+---
 
-You can message me <span style="color:yellow" >sanchitguptaghj@gmail.com </span>,  
- I will reply with in a 24 hours.
-I can help you with
-C/C++ || Java || python || MERN || Django || Django REST Framework || REST APIs || Bash || Dart || SQL || HTML || CSS ||
-Git/GitHub || VS Code || Linux || Android Studio || Canvas ||
-Flutter || Machine Learning.
+You can message me at <span style="color:yellow">**sanchitguptaghj@gmail.com**</span>.  
+I'll reply within 24 hours! I'm happy to help with:
 
-<hr>
+**Technologies:**  
+C/C++ || Java || Python || MERN || Django || REST APIs || Bash || SQL || HTML || CSS || Git/GitHub || Linux || Android Studio || Canvas || Flutter || Machine Learning and more!
 
-:::danger
-There is no better exercise for your heart than reaching down and helping to lift someone up
+---
+
+::: danger 💡 Thought  
+"There is no better exercise for your heart than reaching down and helping to lift someone up."  
 :::
 
-:::details Email
+## 🌐 **Let's Connect!**
 
-```
-sanchitgutpaghj@gmail.com
-```
-
+::: warning [Github](https://github.com/1-Sanchit-1/)  
+[![Github](/icons8-github.svg)](https://github.com/1-Sanchit-1/)
 :::
 
-# Lets Connect !!
-
-:::warning [Github](https://github.com/1-Sanchit-1/)
-
-  <!-- [![name](link to image on GH)](link to your URL) -->
-  <!-- [![](../resource/Sanchit_Gupta.jpg)] -->
- <!-- [Instagram]()
- [Twitter]() -->
-
-[![Github](/icons8-github.svg)](https://github.com/1-Sanchit-1/)  
- :::
-
-:::tip [Linkedin](https://www.linkedin.com/in/sanchit-gupta-15a1b9229/)
-
-[![Linkedin](/icons8-linkedin.svg)](https://www.linkedin.com/in/sanchit-gupta-15a1b9229/)  
- :::
-
-:::info Issue
-Found a issue with the site feel free to create an <span style="color:red">[issue](https://github.com/1-Sanchit-1/site/issues)</span>
+::: tip [LinkedIn](https://www.linkedin.com/in/sanchit-gupta-15a1b9229/)  
+[![LinkedIn](/icons8-linkedin.svg)](https://www.linkedin.com/in/sanchit-gupta-15a1b9229/)  
 :::
+
+---
+
+### 🛠️ **Issue?**
+
+Found an issue with the site? Feel free to create an <span style="color:red">[issue](https://github.com/1-Sanchit-1/site/issues)</span> on GitHub. Your feedback is appreciated!

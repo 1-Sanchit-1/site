@@ -1,43 +1,58 @@
-import { defineConfig } from 'vitepress'
-
-// https://vitepress.dev/reference/site-config
+import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  base: '/site',
-  lang: 'en-US',
+  // Base URL when deploying
+  base: "/site",
+
+  // Basic site metadata
+  lang: "en-US",
   title: "Sanchit Gupta",
   description: "Problem Solver",
-  lastUpdated: true ,
-  appearance: true,
+  lastUpdated: true,
+  appearance: true, // Enables dark mode
   ignoreDeadLinks: true,
+
+  // Markdown configuration
   markdown: {
-    lineNumbers: true,
+    lineNumbers: true, // Show line numbers in code blocks
   },
+
+  // Theme and site configuration
   themeConfig: {
+    // Search settings
     search: {
-      provider: 'local'
+      provider: "local",
     },
-    lastUpdatedText: 'Updated Date',
+
+    // Last updated label
+    lastUpdatedText: "Updated Date",
+
+    // Footer message
     footer: {
-      message:   ' <</>> with ♥️ by S@Nchit  ',
+      message: "<<>> with ♥️ by S@Nchit", // Custom footer message
     },
+
+    // "Edit this page" link configuration
     editLink: {
-      text: 'Edit this page on GitHub',
-      pattern: 'https://github.com/1-Sanchit-1/site'
+      text: "Edit this page on GitHub",
+      pattern: "https://github.com/1-Sanchit-1/site/edit/main/:path",
     },
-    logo : '/solution.png', 
-    // https://vitepress.dev/reference/default-theme-config
+
+    // Logo displayed in the navbar
+    logo: "/solution.png",
+
+    // Navigation bar configuration
     nav: [
-      { text: '🏠 Home', link: '/' },
-      { text: '🎓 Education', link: '/Education/index' },
-      { text: '🚀 Projects', link: '/Projects/index' },
-      { text: '📝 Blogs', link: '/Blogs/index' },
-      { text: '📩 Contact Me', link: '/Contact Me/index' }
+      { text: "🏠 Home", link: "/" },
+      { text: "🎓 Education", link: "/Education/index" },
+      { text: "🚀 Projects", link: "/Projects/index" },
+      { text: "📝 Learning", link: "/Learning/index" },
+      { text: "📩 Contact Me", link: "/Contact Me/index" },
     ],
-    
+
+    // Uncomment sidebar if needed in the future
     // sidebar: [
     //   {
-    //     // text: 'Examples',
     //     items: [
     //       { text: 'Education', link: '/Education/index' },
     //       { text: 'Projects', link: '/Projects/index' },
@@ -47,11 +62,13 @@ export default defineConfig({
     //   }
     // ],
 
+    // Social media links
     socialLinks: [
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/sanchit-gupta-15a1b9229/' },
-      { icon: 'github', link: 'https://github.com/1-Sanchit-1' },
-      // { icon: '', link: 'https://github.com/vuejs/vitepress' }      
+      {
+        icon: "linkedin",
+        link: "https://www.linkedin.com/in/sanchit-gupta-15a1b9229/",
+      },
+      { icon: "github", link: "https://github.com/1-Sanchit-1" },
     ],
- 
-  }
-})
+  },
+});
