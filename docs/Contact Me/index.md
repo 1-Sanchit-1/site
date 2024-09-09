@@ -18,7 +18,7 @@ You can message me at <span style="color:yellow">**sanchitguptaghj@gmail.com**</
 I'll reply within 24 hours! I'm happy to help with:
 
 **Technologies:**  
-C/C++ || Java || Python || MERN || Django || REST APIs || Bash || SQL || HTML || CSS || Git/GitHub || Linux || Android Studio || Canvas || Flutter || Machine Learning and more!
+C/C++ || Javascript || Python || MERN || Django || REST APIs || SQL || HTML || CSS || Git/GitHub || Linux || Machine Learning and more!
 
 ---
 
