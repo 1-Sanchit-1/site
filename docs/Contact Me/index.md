@@ -2,7 +2,7 @@
 lastUpdated: true
 
 prev:
-  text: "Learning"
+  text: "← Back to Learning"
   link: "/Learning/index"
 
 next:

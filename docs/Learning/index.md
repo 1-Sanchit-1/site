@@ -4,8 +4,8 @@ description: "Learning Insights."
 lastUpdated: true
 
 prev:
-  text: "← Back to Blogs"
-  link: "/Blogs/index"
+  text: "← Back to Projects"
+  link: "/Projects/index"
 
 next:
   text: "Contact Me →"

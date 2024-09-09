@@ -2,7 +2,7 @@
 lastUpdated: true
 
 prev:
-  text: "← Home"
+  text: "← Back to  Home"
   link: "/index"
 
 next:

@@ -2,12 +2,12 @@
 lastUpdated: true
 
 prev:
-  text: "← Projects"
-  link: "/Projects/index"
+  text: "← Back to Education"
+  link: "/Education/index"
 
 next:
-  text: "Blogs →"
-  link: "/Blogs/index"
+  text: "Learnings →"
+  link: "/Learning/index"
 ---
 
 # ✍️ **Projects Portfolio**
