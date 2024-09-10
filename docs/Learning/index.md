@@ -49,6 +49,8 @@ Dive into the fascinating world of system design, where **creativity** meets **f
 
 ## 🌱 **A Journey to Personal Growth**
 
+- [🔗 **Personal Learnig**](Topics/index.md)
+
 > **"True learning transforms you from the inside out!"**  
 > These blogs are crafted for **fundamental empowerment**, delivering **impactful lessons** that resonate deeply. More than just knowledge, they are designed to **transform your character** and sharpen your problem-solving skills.
 
