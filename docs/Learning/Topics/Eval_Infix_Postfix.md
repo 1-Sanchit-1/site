@@ -38,7 +38,7 @@ Postfix:
 
 2. Traverse from **left to right**, applying the operator when encountered to the two preceding operands:
 
-   Ente the Operand from left to right into the stack when the operator is encountered pop out two operands and perform the operation on them and again push into the stack.
+   Enter the Operand from left to right into the stack when the operator is encountered pop out two operands and perform the operation on them and again push into the stack.
 
 ```
 2 3 * 4 5 * + 6 -
@@ -85,7 +85,7 @@ Prefix:
 
 2. Traverse from **right to left**, applying the operator when encountered to the two subsequent operands:
 
-   Ente the Operand from right to left into the stack when the operator is encountered pop out two operands and perform the operation on them and again push into the stack.
+   Enter the Operand from right to left into the stack when the operator is encountered pop out two operands and perform the operation on them and again push into the stack.
 
 ```
 - + * 2 3 * 4 5 6
