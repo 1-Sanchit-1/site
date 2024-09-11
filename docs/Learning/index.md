@@ -56,15 +56,7 @@ Dive into the fascinating world of system design, where **creativity** meets **f
 
 ---
 
-🎨 **What to Expect?**
-
-- 🛠 **Practical examples** to tackle real-world challenges
-- 🔍 **In-depth analysis** of modern architectures and design patterns
-- 📚 Lessons crafted to **inspire innovation** and promote creative thinking
-
----
-
-🌟 Stay tuned for more updates as I continue to explore, learn, and share my knowledge on system design!  
+🌟 Stay tuned for more updates as I continue to explore, learn, and share my knowledge !<>!  
 🔗 **[Contact Me](<../Contact Me/index.md>)** for any inquiries or discussions.
 
 ---
