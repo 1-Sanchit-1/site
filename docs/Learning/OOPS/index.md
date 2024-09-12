@@ -73,7 +73,7 @@ A `Vehicle` class with properties like `speed` and methods like `move()` can be 
 
 ---
 
-### 🛠 Virtual Functions
+## 🛠 Virtual Functions
 
 Virtual functions in C++ enable **run-time polymorphism**, allowing derived classes to modify behaviors defined in a base class.
 
@@ -92,3 +92,5 @@ This allows dynamic behavior based on the object type at runtime.
 Animal* myDog = new Dog();
 myDog->makeSound();
 ```
+
+## [📜**Static Keyword**](static.md)
