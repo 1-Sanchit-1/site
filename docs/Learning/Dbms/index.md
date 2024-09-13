@@ -53,6 +53,28 @@ ACID properties ensure safe and reliable transactions in a DBMS:
 
 ### Explain tiers architecture in a DBMS.
 
-- **1-Tier:** The database is directly accessed by the user on the same system.
-- **2-Tier:** The client connects to the database server, typically used in client-server applications.
-- **3-Tier:** Includes a client (user interface), an application server (logic), and a database server, enhancing scalability and security.
+1. **1-Tier Architecture (Single-Tier)**:
+
+   - **Description**: The database and the user interact directly on the same machine.
+   - **Example**: Database developer works directly on the DBMS.
+   - **Key Points**:
+     - No client-server architecture.
+     - Not suitable for end-users.
+     - Mostly used for development or local database management.
+
+2. **2-Tier Architecture (Client-Server)**:
+
+   - **Description**: The client interacts with the database through an application.
+   - **Example**: A desktop application (client) connects to a database server.
+   - **Key Points**:
+     - Client sends requests to the database server.
+     - Server processes and sends data back.
+     - Faster than 3-tier but less secure.
+
+3. **3-Tier Architecture**:
+   - **Description**: Has three layers – Presentation (UI), Application (Logic), and Database (Data Storage).
+   - **Example**: A web application where users interact through a web browser (UI), a server processes logic, and data is stored in a database.
+   - **Key Points**:
+     - Most common for web applications.
+     - Better security and scalability.
+     - The client interacts with the application server, which then communicates with the database server.
