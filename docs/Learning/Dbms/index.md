@@ -46,10 +46,16 @@ ACID properties ensure safe and reliable transactions in a DBMS:
 - **Shared Lock:** Multiple transactions can read the data but cannot modify it.
 - **Exclusive Lock:** Only one transaction can read and write the data, blocking other transactions from accessing it.
 
-### Explain the difference between the DELETE and TRUNCATE command in a DBMS.
+### **delete vs truncate vs drop**
 
-- **DELETE:** Removes rows from a table based on a condition, and each row deletion is logged, which can be rolled back.
-- **TRUNCATE:** Quickly removes all rows from a table without logging each row's deletion, and it cannot be rolled back.
+| Feature                 | DELETE                              | TRUNCATE                       | DROP                              |
+| ----------------------- | ----------------------------------- | ------------------------------ | --------------------------------- |
+| **Operation**           | Removes specific rows               | Removes all rows from a table  | Removes the entire table          |
+| **Use of WHERE clause** | Yes (can filter specific rows)      | No (removes all rows)          | No (removes the whole table)      |
+| **Rollback (Undo)**     | Yes (supports transaction rollback) | No (cannot rollback)           | No (cannot rollback)              |
+| **Performance**         | Slower (removes rows one by one)    | Faster (removes rows directly) | Fastest (removes table structure) |
+| **Space Reclamation**   | Does not free up space immediately  | Frees up space immediately     | Frees up space immediately        |
+| **DDL/DML**             | DML (Data Manipulation Language)    | DDL (Data Definition Language) | DDL (Data Definition Language)    |
 
 ### Explain tiers architecture in a DBMS.
 
