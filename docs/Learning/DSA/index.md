@@ -1,0 +1,1 @@
+[Binary Search](bs.md)
