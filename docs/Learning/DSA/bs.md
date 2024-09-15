@@ -89,10 +89,26 @@ int binarySearchRecursive(vector<int>& nums, int left, int right, int target) {
 ## Find Minimum in Rotated Sorted Arra
 
 - **Problem**: [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-- **Hint**:
-  1. The minimum element in a circularly sorted array is the pivot point.
-  2. Use binary search to find the pivot.
-  3. The index of the minimum element indicates how many times the array is rotated.
+
+```cpp
+class Solution {
+public:
+    int findMin(vector<int>& nums) {
+        int n=nums.size() ;
+        int left=0,right=n-1 ;
+        while(left<right)
+        {
+            int mid=left+(right-left)/2 ;
+            if(nums[mid]>nums[right])
+            {
+                left=mid+1 ;
+            }
+            else right=mid ;
+        }
+        return nums[left] ;
+    }
+};
+```
 
 ---
 
@@ -138,7 +154,7 @@ double morePrecision(int n, int precision, int tempSol) {
         }
     }
 
-    return ans;  // Return the final result with the desired precision
+    return ans;
 }
 ```
 
