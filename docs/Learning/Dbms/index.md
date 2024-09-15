@@ -101,15 +101,23 @@ Application <=> Middleware <=> Database
 
 ## Types of keys
 
-## **Why? uniquely Identify the tuple**
+### Why need keys ?
+
+- **For uniquely Identifing the tuples**
 
 **Super Key**: A set of one or more columns that can uniquely identify a record in a table.
 **Candidate Key**: A column (or set of columns) that could be a primary key (must be unique and not null)
-if you have choose any key as a Candidate key then you are not make any combination from that key to make Candidate key .
+
+- If a key is selected as a candidate key, it cannot be combined with other attributes to form a new candidate key
+
 **Primary Key**: A unique identifier for each record in a table (no duplicates, no nulls).
+
 **Alternate Key**: Any candidate key that is not chosen as the primary key.
+
 **Unique Key**: Ensures all values in a column or a set of columns are unique (can have nulls).
+
 **Composite Key**: A key that consists of two or more columns to uniquely identify a record.
+
 **Foreign Key**: A field in a table that links to the primary key of another table.
 
 # Database Normalization Forms
@@ -121,15 +129,11 @@ if you have choose any key as a Candidate key then you are not make any combinat
   - All attributes should have atomic (indivisible) values.
   - Only single values are allowed in each field (no sets, lists, or multiple values in one field).
 
----
-
 ## 2nd Normal Form (2NF)
 
 - **Rule**:
   - Achieve 1NF.
   - Remove partial dependencies (non-key attributes should depend on the entire primary key, not just part of it).
-
----
 
 ## 3rd Normal Form (3NF)
 
@@ -139,8 +143,6 @@ if you have choose any key as a Candidate key then you are not make any combinat
   - **No transitive dependency**: Non-prime attributes should not depend on other non-prime attributes.
   - **In 3rd NF**:
     - LHS (Left Hand Side) must be a Candidate Key (CK) or Super Key (SK).
-
----
 
 ## Boyce-Codd Normal Form (BCNF)
 
