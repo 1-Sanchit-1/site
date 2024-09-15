@@ -78,9 +78,24 @@ ACID properties ensure safe and reliable transactions in a DBMS:
      - Faster than 3-tier but less secure.
 
 3. **3-Tier Architecture**:
+
    - **Description**: Has three layers – Presentation (UI), Application (Logic), and Database (Data Storage).
    - **Example**: A web application where users interact through a web browser (UI), a server processes logic, and data is stored in a database.
    - **Key Points**:
      - Most common for web applications.
      - Better security and scalability.
      - The client interacts with the application server, which then communicates with the database server.
+
+## Types of keys
+
+## **Why? uniquely Identify the tuple**
+
+**Super Key**: A set of one or more columns that can uniquely identify a record in a table.
+**Candidate Key**: A column (or set of columns) that could be a primary key (must be unique and not null)
+
+- if you have choose any key as a Candidate key then you are not make any combination from that key to make Candidate key .
+  **Primary Key**: A unique identifier for each record in a table (no duplicates, no nulls).
+  **Alternate Key**: Any candidate key that is not chosen as the primary key.
+  **Unique Key**: Ensures all values in a column or a set of columns are unique (can have nulls).
+  **Composite Key**: A key that consists of two or more columns to uniquely identify a record.
+  **Foreign Key**: A field in a table that links to the primary key of another table.
