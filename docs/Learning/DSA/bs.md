@@ -179,3 +179,47 @@ double morePrecision(int n, int precision, int tempSol) {
   3. Use modulo operations to loop through the people.
 
 ---
+
+## Allocate Minimum Number Of Pages
+
+- **Problem**: [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/description/)
+
+```cpp
+class Solution {
+public:
+    bool possible(vector<int>&nums ,int k,int n,int mid)
+    {
+        int cnt=1 ;
+        int sum=0 ;
+        for(int i=0;i<n;i++)
+        {
+            sum+=nums[i] ;
+            if(sum>mid)
+            {
+                cnt++ ;
+                sum=nums[i] ;
+            }
+            if(cnt>k) return 0 ;
+        }
+        return 1 ;
+    }
+    int splitArray(vector<int>& nums, int k) {
+        int n=nums.size() ,ans=0;
+        if(n<k) return -1 ;
+        int total_sum=accumulate(nums.begin(),nums.end(),0) ;
+        int mx=*max_element(nums.begin(),nums.end()) ;
+        int left=mx, right=total_sum ;
+        while(left<=right)
+        {
+            int mid=left+((right-left)>>1) ;
+            if(possible(nums,k,n,mid))
+            {
+                ans=mid ;
+                right=mid-1;
+            }
+            else left=mid+1 ;
+        }
+        return ans ;
+    }
+};
+```
