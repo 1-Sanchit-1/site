@@ -68,6 +68,10 @@ ACID properties ensure safe and reliable transactions in a DBMS:
      - Not suitable for end-users.
      - Mostly used for development or local database management.
 
+```
+Machine (Application + Database)
+```
+
 2. **2-Tier Architecture (Client-Server)**:
 
    - **Description**: The client interacts with the database through an application.
@@ -77,14 +81,23 @@ ACID properties ensure safe and reliable transactions in a DBMS:
      - Server processes and sends data back.
      - Faster than 3-tier but less secure.
 
+```
+Application <--> Database
+```
+
 3. **3-Tier Architecture**:
 
    - **Description**: Has three layers – Presentation (UI), Application (Logic), and Database (Data Storage).
    - **Example**: A web application where users interact through a web browser (UI), a server processes logic, and data is stored in a database.
    - **Key Points**:
+
      - Most common for web applications.
      - Better security and scalability.
      - The client interacts with the application server, which then communicates with the database server.
+
+```
+Application <=> Middleware <=> Database
+```
 
 ## Types of keys
 
@@ -92,10 +105,48 @@ ACID properties ensure safe and reliable transactions in a DBMS:
 
 **Super Key**: A set of one or more columns that can uniquely identify a record in a table.
 **Candidate Key**: A column (or set of columns) that could be a primary key (must be unique and not null)
+if you have choose any key as a Candidate key then you are not make any combination from that key to make Candidate key .
+**Primary Key**: A unique identifier for each record in a table (no duplicates, no nulls).
+**Alternate Key**: Any candidate key that is not chosen as the primary key.
+**Unique Key**: Ensures all values in a column or a set of columns are unique (can have nulls).
+**Composite Key**: A key that consists of two or more columns to uniquely identify a record.
+**Foreign Key**: A field in a table that links to the primary key of another table.
 
-- if you have choose any key as a Candidate key then you are not make any combination from that key to make Candidate key .
-  **Primary Key**: A unique identifier for each record in a table (no duplicates, no nulls).
-  **Alternate Key**: Any candidate key that is not chosen as the primary key.
-  **Unique Key**: Ensures all values in a column or a set of columns are unique (can have nulls).
-  **Composite Key**: A key that consists of two or more columns to uniquely identify a record.
-  **Foreign Key**: A field in a table that links to the primary key of another table.
+# Database Normalization Forms
+
+## 1st Normal Form (1NF)
+
+- **Rule**: No multi-valued attributes.
+- **In 1st NF**:
+  - All attributes should have atomic (indivisible) values.
+  - Only single values are allowed in each field (no sets, lists, or multiple values in one field).
+
+---
+
+## 2nd Normal Form (2NF)
+
+- **Rule**:
+  - Achieve 1NF.
+  - Remove partial dependencies (non-key attributes should depend on the entire primary key, not just part of it).
+
+---
+
+## 3rd Normal Form (3NF)
+
+- **Rule**:
+  - Achieve 2NF.
+  - **No partial dependency**: Non-prime attributes must depend on the whole primary key.
+  - **No transitive dependency**: Non-prime attributes should not depend on other non-prime attributes.
+  - **In 3rd NF**:
+    - LHS (Left Hand Side) must be a Candidate Key (CK) or Super Key (SK).
+
+---
+
+## Boyce-Codd Normal Form (BCNF)
+
+- **Rule**:
+  - Achieve 3NF.
+  - **LHS must be a candidate key**: Every determinant (attribute that determines others) must be a candidate key.
+  - **In BCNF**: LHS of functional dependencies should be CK or SK.
+
+---
