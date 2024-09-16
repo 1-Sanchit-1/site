@@ -200,4 +200,8 @@ void dijkstra(const vector<vector<pair<int, int>>> &adj, int V, int start) {
 
 ```
 
+## Strongly Connected Components (SCC) :
+
+- A Strongly Connected Component (SCC) of a directed graph is a maximal subgraph where every pair of vertices are reachable from each other.
+
 ---
