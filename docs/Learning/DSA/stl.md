@@ -29,6 +29,12 @@
 | `mp.clear()`            | Removes all elements                              | O(n)            |
 | `mp.size()`             | Returns the number of elements                    | O(1)            |
 
+```cpp
+ // Access key and value from map iterator
+auto it=mp.begin() ;
+int first=it->first  ,second=it->second ;
+```
+
 ---
 
 | Operation         | `map` (Balanced Tree) | `unordered_map` (Hash Table)  |
@@ -53,6 +59,11 @@
 | `s.size()`      | Returns the number of elements                    | O(1)            |
 | `s.begin()`     | Returns an iterator to the first element          | O(1)            |
 | `s.end()`       | Returns an iterator to the element after the last | O(1)            |
+
+```cpp
+auto it=s.begin();
+int num=*it ; // Dereference set iterator to get value
+```
 
 ---
 

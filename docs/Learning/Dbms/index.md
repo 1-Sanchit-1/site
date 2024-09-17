@@ -106,6 +106,7 @@ Application <=> Middleware <=> Database
 - **For uniquely Identifing the tuples**
 
 **Super Key**: A set of one or more columns that can uniquely identify a record in a table.
+
 **Candidate Key**: A column (or set of columns) that could be a primary key (must be unique and not null)
 
 - If a key is selected as a candidate key, it cannot be combined with other attributes to form a new candidate key
