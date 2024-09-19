@@ -1,3 +1,300 @@
+### JavaScript :
+
+1. **Variables:**
+
+   - `var`: Function-scoped, can be re-assigned.
+   - `let`: Block-scoped, can be re-assigned.
+   - `const`: Block-scoped, cannot be re-assigned.
+
+   ```javascript
+   let x = 10;
+   const y = 20;
+   ```
+
+2. **Data Types:**
+
+   - Primitive: `String`, `Number`, `Boolean`, `Null`, `Undefined`, `Symbol`, `BigInt`.
+   - Object: `Object`, `Array`, `Function`, etc.
+
+   ```javascript
+   let str = "Hello";
+   let num = 123;
+   let isTrue = true;
+   ```
+
+3. **Functions:**
+
+   - Function Declaration:
+     ```javascript
+     function add(a, b) {
+       return a + b;
+     }
+     ```
+   - Function Expression:
+     ```javascript
+     const add = function (a, b) {
+       return a + b;
+     };
+     ```
+   - Arrow Function:
+     ```javascript
+     const add = (a, b) => a + b;
+     ```
+
+4. **Conditionals:**
+   - `if`, `else if`, `else`:
+     ```javascript
+     if (a > b) {
+       console.log("a is greater");
+     } else {
+       console.log("b is greater");
+     }
+     ```
+   - `switch`:
+     ```javascript
+     switch (day) {
+       case 1:
+         console.log("Monday");
+         break;
+       default:
+         console.log("Another day");
+     }
+     ```
+
+### Loops:
+
+1. **For Loop:**
+   ```javascript
+   for (let i = 0; i < 5; i++) {
+     console.log(i);
+   }
+   ```
+2. **While Loop:**
+
+   ```javascript
+   let i = 0;
+   while (i < 5) {
+     console.log(i);
+     i++;
+   }
+   ```
+
+3. **ForEach (Array Iteration):**
+   ```javascript
+   [1, 2, 3].forEach((num) => console.log(num));
+   ```
+
+### Arrays:
+
+- **Array Creation:**
+  ```javascript
+  let arr = [1, 2, 3];
+  ```
+- **Array Methods:**
+  - `push()`: Add to end.
+  - `pop()`: Remove from end.
+  - `shift()`: Remove from start.
+  - `unshift()`: Add to start.
+  - `splice()`: Remove/replace items.
+  - `map()`: Returns a new array after applying function to each item.
+  - `filter()`: Returns a new array with elements that pass the test.
+  - `reduce()`: Reduces array to a single value.
+  ```javascript
+  arr.push(4); // [1, 2, 3, 4]
+  arr.map((x) => x * 2); // [2, 4, 6, 8]
+  ```
+
+### Objects:
+
+- **Object Creation:**
+  ```javascript
+  let person = {
+    name: "John",
+    age: 30,
+    greet: function () {
+      console.log("Hello");
+    },
+  };
+  ```
+- **Object Access:**
+  - Dot Notation: `person.name`
+  - Bracket Notation: `person["name"]`
+
+### Functions:
+
+1. **Default Parameters:**
+   ```javascript
+   function greet(name = "Guest") {
+     return "Hello " + name;
+   }
+   ```
+2. **Rest Operator (...):**
+   ```javascript
+   function sum(...numbers) {
+     return numbers.reduce((acc, num) => acc + num);
+   }
+   ```
+3. **Spread Operator (...):**
+   ```javascript
+   let arr1 = [1, 2, 3];
+   let arr2 = [...arr1, 4, 5]; // [1, 2, 3, 4, 5]
+   ```
+
+### DOM Manipulation:
+
+1. **Selecting Elements:**
+   - `getElementById()`, `querySelector()`, `getElementsByClassName()`.
+     ```javascript
+     document.getElementById("myDiv");
+     ```
+2. **Changing Content:**
+   - `innerHTML`, `textContent`, `value`.
+     ```javascript
+     document.getElementById("myDiv").innerHTML = "Hello";
+     ```
+3. **Changing Styles:**
+
+   - `style.property`:
+     ```javascript
+     document.getElementById("myDiv").style.color = "red";
+     ```
+
+4. **Event Listeners:**
+   ```javascript
+   document.getElementById("myBtn").addEventListener("click", function () {
+     alert("Button clicked");
+   });
+   ```
+
+### ES6 Features:
+
+1. **Template Literals:**
+   ```javascript
+   let name = "John";
+   console.log(`Hello ${name}`);
+   ```
+2. **Destructuring:**
+
+   - Arrays:
+     ```javascript
+     let [a, b] = [1, 2];
+     ```
+   - Objects:
+     ```javascript
+     let { name, age } = person;
+     ```
+
+3. **Classes:**
+
+   ```javascript
+   class Person {
+     constructor(name, age) {
+       this.name = name;
+       this.age = age;
+     }
+
+     greet() {
+       console.log(`Hello, my name is ${this.name}`);
+     }
+   }
+
+   let person1 = new Person("John", 30);
+   person1.greet(); // Output: Hello, my name is John
+   ```
+
+4. **Promises:**
+
+   ```javascript
+   let promise = new Promise((resolve, reject) => {
+     // async task
+     if (success) resolve("Task completed");
+     else reject("Task failed");
+   });
+
+   promise
+     .then((result) => console.log(result))
+     .catch((err) => console.log(err));
+   ```
+
+5. **Async/Await:**
+   ```javascript
+   async function fetchData() {
+     let response = await fetch("url");
+     let data = await response.json();
+     console.log(data);
+   }
+   ```
+
+### Error Handling:
+
+- **Try/Catch Block:**
+  ```javascript
+  try {
+    // Code that may throw an error
+  } catch (error) {
+    console.log(error.message);
+  }
+  ```
+
+### Regular Expressions:
+
+- **RegEx Syntax:**
+  ```javascript
+  let regex = /abc/;
+  let str = "abcdef";
+  regex.test(str); // true
+  ```
+
+### JSON:
+
+- **JSON Parse:**
+  ```javascript
+  let obj = JSON.parse('{"name":"John", "age":30}');
+  ```
+- **JSON Stringify:**
+  ```javascript
+  let str = JSON.stringify({ name: "John", age: 30 });
+  ```
+
+### Modules:
+
+- **Export/Import:**
+  - In `module1.js`:
+    ```javascript
+    export const greeting = "Hello";
+    export function sayHello() {
+      console.log("Hello");
+    }
+    ```
+  - In `main.js`:
+    ```javascript
+    import { greeting, sayHello } from "./module1";
+    sayHello(); // Output: Hello
+    ```
+
+### `this` Keyword:
+
+- Refers to the object that is executing the current function.
+  ```javascript
+  const person = {
+    name: "John",
+    greet: function () {
+      console.log(this.name);
+    },
+  };
+  ```
+
+### Media Queries (Responsive JS):
+
+- Adjusts JavaScript functionality based on screen size:
+  ```javascript
+  if (window.matchMedia("(max-width: 600px)").matches) {
+    // Code for mobile screens
+  }
+  ```
+
+## Questions :
+
 ### 1. **What is the difference between `var`, `let`, and `const`?**
 
 - **`var`**:
@@ -325,3 +622,7 @@ Here are the notes for the provided code:
 - **Callback Hell** can occur when nesting multiple callbacks.
 - **Promises** and **Promise Chaining** help avoid callback hell by handling asynchronous operations more effectively.
 - **Async/Await** simplifies working with promises by allowing asynchronous code to be written in a synchronous manner.
+- **Hoisting:** Variables declared with `var` are hoisted to the top of the scope.
+- **Closures:** Functions retain access to their lexical scope, even when the function is executed outside that scope.
+- **Callbacks:** Functions passed into another function as an argument to be executed later.
+- **Event Loop:** JavaScript uses an event loop to handle asynchronous tasks and promises.
