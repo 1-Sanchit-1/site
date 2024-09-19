@@ -293,6 +293,14 @@
   }
   ```
 
+### How the Event Loop Works :
+
+- **Single-threaded**: JavaScript can only do one thing at a time, meaning it processes code line by line.
+
+  - When an asynchronous task is triggered (like a network request), JavaScript doesn't wait for it to finish. Instead, it continues executing the rest of the code.
+  - The **event loop** constantly checks if asynchronous tasks have completed. If they have, their callback functions are put into a **queue**.
+  - Once the main code finishes, the event loop processes the tasks in the queue and runs their callbacks.
+
 ## Questions :
 
 ### 1. **What is the difference between `var`, `let`, and `const`?**
