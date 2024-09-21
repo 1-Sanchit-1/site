@@ -153,3 +153,7 @@ Application <=> Middleware <=> Database
   - **In BCNF**: LHS of functional dependencies should be CK or SK.
 
 ---
+
+- [**SQL**](sql.md)
+
+---
