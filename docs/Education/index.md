@@ -33,7 +33,7 @@ next:
 
 ### 🧮 **CGPA**
 
-**7.93** _(Till Fifth Semester)_
+**8.00** _(Till Sixth Semester)_
 
 ---
 
