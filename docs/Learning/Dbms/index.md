@@ -152,6 +152,44 @@ Application <=> Middleware <=> Database
   - **LHS must be a candidate key**: Every determinant (attribute that determines others) must be a candidate key.
   - **In BCNF**: LHS of functional dependencies should be CK or SK.
 
+## What is normalization in databases? Why is it important, and can you give an example of normalization?
+
+Normalization in databases is the process of organizing data in a way that reduces redundancy and dependency. It involves breaking down tables into smaller, related tables and defining relationships between them. The goal is to eliminate data anomalies, ensure data consistency, and make the database more efficient.
+
+### Importance of Normalization:
+
+1. **Eliminate Redundancy**: Avoids storing the same data multiple times, reducing the chances of inconsistency.
+2. **Improve Data Integrity**: By splitting data into related tables, it maintains relationships between the data, preventing anomalies.
+3. **Efficient Queries**: Optimizes the database for efficient data retrieval and updates.
+
+### Example:
+
+Consider an "Employee" table with columns like `EmployeeID`, `Name`, `PhoneNumber`, and `Address`. If an employee has multiple phone numbers or addresses, you'd have duplicate entries, leading to redundancy.
+
+- **Before Normalization**:  
+   | EmployeeID | Name | PhoneNumber | Address |
+  |------------|-------|-------------|-----------|
+  | 1 | John | 12345 | City A |
+  | 1 | John | 67890 | City A |
+  | 2 | Jane | 54321 | City B |
+
+- **After Normalization**: Break this table into two:
+
+  - **Employee Table**:  
+    | EmployeeID | Name | Address |
+    |------------|-------|---------|
+    | 1 | John | City A |
+    | 2 | Jane | City B |
+
+  - **PhoneNumber Table**:  
+    | EmployeeID | PhoneNumber |
+    |------------|-------------|
+    | 1 | 12345 |
+    | 1 | 67890 |
+    | 2 | 54321 |
+
+By normalizing, you eliminate redundancy in the employee data and store multiple phone numbers in a separate table.
+
 ---
 
 - [**SQL**](sql.md)

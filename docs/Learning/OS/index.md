@@ -211,10 +211,10 @@ A **daemon** is a background program that runs without user input, typically in 
 ### 3. **What is Deadlock?**
 
 - **Deadlock** occurs when a set of processes are blocked because each process is holding a resource and waiting for another resource held by another process. Conditions for deadlock:
-  1.  Mutual Exclusion.
-  2.  Hold and Wait.
-  3.  No Preemption.
-  4.  Circular Wait.
+  1.  Mutual Exclusion: only one process can use the resource at any time.
+  2.  Hold and Wait:: A process holding at least one resource is waiting to acquire additional resources that are currently being held by other processes
+  3.  No Preemption:Once a process is holding a resource then that resource cannot be taken away from that process until the process voluntarily releases
+  4.  Circular Wait:A set of processes are in a circular chain where each process is waiting for a resource that the next process in the chain holds
 
 ---
 
