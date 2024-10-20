@@ -1,3 +1,7 @@
+# [`OOPs`](oops_python.md)
+
+---
+
 # 🌟 OOPS Concepts
 
 ## 🔒 Encapsulation

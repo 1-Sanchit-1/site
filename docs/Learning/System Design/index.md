@@ -1,2 +1,3 @@
 - [**How Microservices Talk to Each Other?**](Microservices.md)
+- [**SQL VS NOSQL**](sql_vs_nosql.md)
 - [**SQL VS NOSQL Indexing**](indexing.md)
