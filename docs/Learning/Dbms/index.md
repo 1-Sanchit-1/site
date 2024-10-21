@@ -30,10 +30,10 @@
 
 ACID properties ensure safe and reliable transactions in a DBMS:
 
-- **Atomicity:** Ensures that all operations in a transaction either complete or none do.
-- **Consistency:** Guarantees that transactions lead to a valid state according to the database's rules.
-- **Isolation:** Ensures that transactions do not interfere with each other.
-- **Durability:** Once a transaction is committed, its changes are permanent, even after a system failure.
+- **Atomicity:** All parts of a transaction happen, or none do. No partial transactions.
+- **Consistency:** The database stays in a valid state before and after a transaction.
+- **Isolation:** Transactions occur independently, without interference.
+- **Durability:** Once a transaction is complete, the changes are saved permanently, even if there's a system failure.
 
 ### What is meant by normalization and denormalization?
 
