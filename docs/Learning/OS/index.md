@@ -145,8 +145,7 @@ A **real-time system** processes data as it comes with strict time constraints, 
 
 - **Long-Term Scheduler (LTS):** Loads processes into memory from the job queue.
 - **Short-Term Scheduler (STS):** Allocates CPU to processes from the ready queue.
-
-## A medium-term scheduler is a component of an operating system that temporarily moves processes between main memory and secondary memory
+- A medium-term scheduler is a component of an operating system that temporarily moves processes between main memory and secondary memory
 
 ### What is a Distributed System?
 
