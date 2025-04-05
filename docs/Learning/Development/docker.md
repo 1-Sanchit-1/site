@@ -115,4 +115,118 @@ CMD ["python", "app.py"]
 sudo systemctl start docker
 ```
 
-✅ **"Port already in use"** → Use a different port or stop conflicting service.
+## ✅ **"Port already in use"** → Use a different port or stop conflicting service.
+
+## 🧱 **1. Image = Blueprint**
+
+A **Docker image** is like a blueprint or recipe for creating containers.
+
+### 👉 How to Create (or Pull) an Image:
+
+```bash
+docker pull ubuntu
+```
+
+⬆️ This downloads the **Ubuntu** image from Docker Hub.
+
+You can also **create your own image** using a `Dockerfile` (we’ll come to that later).
+
+---
+
+## 📦 **2. Container = Running App**
+
+A **container** is like a running machine built from the image.
+
+### 👉 How to Create and Run a Container:
+
+```bash
+docker run -it ubuntu
+```
+
+This will:
+
+- Use the `ubuntu` image
+- Start an interactive shell (`-it`)
+- Put you inside the Ubuntu container
+
+Now you’re inside the container’s terminal! Type `exit` to come back out.
+
+### 👉 Run a container in background:
+
+```bash
+docker run -d ubuntu sleep 9999
+```
+
+### 👉 List containers:
+
+```bash
+docker ps -a
+```
+
+---
+
+## 📸 **3. Create Your Own Image**
+
+Use a **Dockerfile** to define an image:
+
+### 🔧 Example: Dockerfile
+
+```Dockerfile
+# Use Ubuntu as base
+FROM ubuntu
+
+# Install curl
+RUN apt update && apt install -y curl
+
+# Default command
+CMD ["bash"]
+```
+
+### 👉 Build your image:
+
+```bash
+docker build -t myubuntu .
+```
+
+Now check your image:
+
+```bash
+docker images
+```
+
+---
+
+## 💾 **4. Volume = Data Storage**
+
+Volumes let you **store data** outside the container so it won’t be lost when the container stops.
+
+### 👉 Create a volume:
+
+```bash
+docker volume create myvolume
+```
+
+### 👉 Use volume in a container:
+
+```bash
+docker run -it -v myvolume:/data ubuntu
+```
+
+This mounts the volume `myvolume` to `/data` inside the container.
+
+Now any file saved in `/data` will persist even after the container is deleted.
+
+---
+
+## Useful Commands
+
+```bash
+docker ps -a            # List all containers
+docker images           # List all images
+docker volume ls        # List all volumes
+docker rm <container>   # Remove container
+docker rmi <image>      # Remove image
+docker volume rm <vol>  # Remove volume
+```
+
+---
