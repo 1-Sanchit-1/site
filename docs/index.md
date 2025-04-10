@@ -9,7 +9,7 @@ layout: home
 
 hero:
   name: "🗯️ 🌐 Hello, World!"
-  text: "👋 I'm Sanchit Gupta, Backend Developer"
+  text: "👋 I'm Sanchit Gupta, Full Stack Developer"
   tagline: "Turning Ideas into Digital Realities"
 
   image:
