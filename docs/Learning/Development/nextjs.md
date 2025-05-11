@@ -1,9 +1,5 @@
-Of course! Here’s a clean, structured **Next.js Documentation** from **Basics to Advanced** that you can use as reference notes or even build into official-style documentation.
-It’s concise but comprehensive — easy to navigate and scale.
 
----
-
-# 📘 Next.js Documentation (Basic to Advanced)
+# 📘 Next.js Documentation 
 
 ---
 
