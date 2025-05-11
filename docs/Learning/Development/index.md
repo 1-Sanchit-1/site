@@ -10,7 +10,7 @@ Welcome to your one-stop guide for full-stack web development! Click on any topi
 - 🖌️ [**CSS**](css.md) — Style with elegance and precision.
 - ⚙️ [**JavaScript**](js.md) — Add interactivity to everything.
 - ⚛️ [**React**](react.md) — Build dynamic user interfaces the modern way.
-
+- ⚛️ [**NextJs**](nextjs.md) — A React-based framework for building full-stack and web applications with server-side rendering (SSR), static site generation (SSG), and API routes.
 ---
 
 ## 🛠️ Backend & Databases
