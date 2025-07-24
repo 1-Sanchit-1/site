@@ -20,7 +20,7 @@ next:
 
 ---
 
-## 🎓 **Undergraduate '25**
+## 🎓 Proud Graduate | IIIL Batch of 2025 (Computer Science)
 
 ::: info 🎓 Institution
 **Indian Institute of Information Technology, Lucknow**  
