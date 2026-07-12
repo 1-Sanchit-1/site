@@ -22,7 +22,7 @@ hero:
       link: /Contact Me/index
     - theme: alt
       text: "📄 View My Resume"
-      link: "https://drive.google.com/file/d/1FioE-UFp2ET-HiNgd907b1mvEmKbahSP/view"
+      link: "https://drive.google.com/file/d/1yqfr6yP-xOYyKPNKp0KwAHLSn5-Xygx3/view?usp=sharing"
     - theme: alt
       text: "📚 Education"
       link: /Education/index
