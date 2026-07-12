@@ -26,7 +26,7 @@ next:
 
 Dive into the fascinating world of system design, where **creativity** meets **functionality**. Learn how to create scalable and robust systems that solve real-world challenges with precision.
 
-🔗 [**Explore Now**](<System Design/index.md>)
+🔗 [**System Desing**](<System Design/index.md>)
 
 ---
 
