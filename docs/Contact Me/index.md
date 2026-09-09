@@ -17,9 +17,10 @@ next:
 You can message me at <span style="color:yellow">**sanchitguptaghj@gmail.com**</span>.  
 I'll reply within 24 hours! I'm happy to help with:
 
-**Technologies:**  
-C/C++ || [**Javascript**](../Learning/Development/js.md) || Python || [**MERN**](../Learning/Development/index.md) || Django || REST APIs || SQL ||
-[**HTML**](../Learning/Development/html.md) || [**CSS**](../Learning/Development/css.md) || Git/GitHub || Linux || Machine Learning and more!
+**Technologies:**
+Python || FastAPI || vLLM || NVIDIA Triton || LLM & VLM serving || RAG and vector search ||
+Docker || Kubernetes || Linux || PostgreSQL || Redis || NGINX || Prometheus & Grafana ||
+[**React / JavaScript**](../Learning/Development/js.md) || C/C++ || air-gapped deployment
 
 ---
 

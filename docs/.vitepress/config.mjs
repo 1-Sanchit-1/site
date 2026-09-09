@@ -7,7 +7,7 @@ export default defineConfig({
   // Basic site metadata
   lang: "en-US",
   title: "Sanchit Gupta",
-  description: "Problem Solver",
+  description: "AI Infrastructure Engineer — LLM inference on GPU, in air-gapped environments",
   lastUpdated: true,
   appearance: true, // Enables dark mode
   ignoreDeadLinks: true,
@@ -44,6 +44,8 @@ export default defineConfig({
     // Navigation bar configuration
     nav: [
       { text: "🏠 Home", link: "/" },
+      { text: "💼 Experience", link: "/Experience/index" },
+      { text: "🛠️ Skills", link: "/Skills/index" },
       { text: "🎓 Education", link: "/Education/index" },
       { text: "🚀 Projects", link: "/Projects/index" },
       { text: "📝 Learning", link: "/Learning/index" },

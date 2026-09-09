@@ -20,6 +20,42 @@ next:
 
 ---
 
+## 🚀 **Self-Hosted GPU Inference Platform**
+
+💻 **[Code Repository](https://github.com/1-Sanchit-1/AI-inference)**
+
+**Tech Stack:**
+`vLLM` | `Kubernetes (MicroK8s)` | `FastAPI` | `Qdrant` | `Docker` | `Prometheus` | `Grafana` | `Ollama`
+
+**Objective:**
+A self-hosted, GPU-accelerated AI platform deployed entirely from versioned Kubernetes manifests on
+a single NVIDIA GPU node. Serves an OpenAI-compatible LLM endpoint via vLLM, alongside Open WebUI
+and a FastAPI retrieval-augmented generation service backed by Qdrant vector search.
+
+The ingest pipeline chunks and embeds text, PDF, DOCX and image uploads, falling back to OCR via
+Tesseract when a PDF's text layer is missing or too sparse, with page caps that fail fast instead of
+exhausting host memory. Ships a full observability stack (Prometheus, Grafana, Loki, Tempo,
+OpenTelemetry) and a CPU-only Docker Compose path using Ollama, so the whole system also runs on a
+laptop with no GPU. Deployment is driven by 20 numbered, idempotent shell phases plus a runbook: a
+clean Ubuntu host reaches a working platform in one command.
+
+---
+
+## 🔗 **Distributed URL Shortener**
+
+💻 **[Code Repository](https://github.com/1-Sanchit-1/url-shortener)**
+
+**Tech Stack:**
+`Python` | `FastAPI` | `PostgreSQL` | `Redis`
+
+**Objective:**
+A high-throughput redirection service with custom aliases, click analytics, authentication and rate
+limiting, holding sub-100ms latency under load testing. Designed the schema, indexing and cache
+strategy for high-volume concurrent reads, then profiled and removed the query bottlenecks that
+appeared under contention.
+
+---
+
 ## 🌐 **Campus Connect**
 
 🔗 **[Live ](https://campus-connect-client-one.vercel.app/)**  

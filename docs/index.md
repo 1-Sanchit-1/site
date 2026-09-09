@@ -8,11 +8,11 @@ layout: home
 
 <div class="status-bar">
   <span class="pulse"></span>
-  <span class="status-text">All systems operational</span>
+  <span class="status-text">AI infrastructure engineer</span>
   <span class="status-sep">·</span>
-  <span class="status-text">99.9% uptime, last 90 days</span>
+  <span class="status-text">LLM inference on GPU</span>
   <span class="status-sep">·</span>
-  <span class="status-text">Production since 2023</span>
+  <span class="status-text">Air-gapped deployments</span>
 </div>
 
 <div class="terminal">
@@ -22,27 +22,35 @@ layout: home
 <span class="yellow"></span>
 <span class="green"></span>
 </div>
-<div class="title">~/production</div>
+<div class="title">~/whoami</div>
 </div>
 
 ```bash
 $ whoami
 
 Sanchit Gupta
-Software Engineer — AI Infrastructure & Backend Systems
+AI Infrastructure Engineer @ Neuralix.ai
+B.Tech CSE, IIIT Lucknow '25
 
-$ ./deploy_history.sh --last 4
+$ cat what_i_do.txt
 
-✓ Migrated inference stack to vLLM        → +3.0x throughput
-✓ Rewrote hot-path caching layer          → -40% p99 latency
-✓ Stood up on-prem GPU deployment         → zero external data egress
-✓ auth + rate-limiting layer      → sustained 0 downtime incidents
+I keep large language models running on GPUs
+that have no internet connection.
 
-$ cat tech-stack.txt 
+$ ./highlights.sh
 
-• Python • FastAPI • Docker • PostgreSQL
-• Redis • vLLM • NGINX • Linux • Git • GitHub
-• Prometheus • Grafana • Monitoring 
+• Core engineer on EKAM AI — an indigenous Defence
+  AI-as-a-Service platform under the MoD iDEX ADITI 2.0
+  initiative, launched at the Chanakya Defence Dialogue 2025
+
+• Model serving on vLLM and NVIDIA Triton across GPU nodes
+  — continuous batching, KV-cache sizing, request scheduling
+
+• Instrumented telemetry, profiled hot paths, tuned async
+  execution and caching → cut average API latency by 40%
+
+• Delivery into secure air-gapped and VDI sites, where every
+  package and model weight has to be carried in offline
 ```
 
 </div>
@@ -54,43 +62,30 @@ $ cat tech-stack.txt
 <span class="yellow"></span>
 <span class="green"></span>
 </div>
-<div class="title">~/api/backend-debug</div>
+<div class="title">~/infra/request-path</div>
 </div>
 
 ```bash
-$ docker logs api-gateway --since 10m | grep ERROR
+$ cat architecture.txt
 
-2026-07-12T09:14:02Z ERROR db.pool: connection timeout after 5000ms
-2026-07-12T09:14:02Z ERROR db.pool: retrying (attempt 1/3)
+                          ┌────────────────────────────────┐
+      client  ───────────▶│   FastAPI gateway  ·  React    │
+                          └────────────────┬───────────────┘
+                                           │
+                ┌──────────────────────────┼──────────────────────────┐
+                ▼                          ▼                          ▼
+       ┌─────────────────┐        ┌─────────────────┐        ┌─────────────────┐
+       │  vLLM           │        │  NVIDIA Triton  │        │  Qdrant         │
+       │  LLMs · SLMs    │        │  OCR · VLM      │        │  vector search  │
+       │  cont. batching │        │  reranking      │        │  RAG retrieval  │
+       └────────┬────────┘        └────────┬────────┘        └─────────────────┘
+                └────────────┬─────────────┘
+                             ▼
+                    ┌─────────────────┐        ┌──────────────────────────┐
+                    │   NVIDIA GPU    │◀──────▶│ Prometheus · Grafana     │
+                    └─────────────────┘        └──────────────────────────┘
 
-$ docker exec -it postgres bash
-root@postgres:/# psql -U user -d aiaas
-
-aiaas=> SELECT count(*) FROM pg_stat_activity;
- count
--------
-   187
-(1 row)
-
-aiaas=> \q
-root@postgres:/# exit
-
-$ redis-cli INFO clients | grep connected_clients
-
-connected_clients:342
-
-$ pytest tests/ -k "rate_limit" -v
-
-tests/test_middleware.py::test_rate_limit_burst PASSED
-tests/test_middleware.py::test_rate_limit_reset PASSED
-tests/test_middleware.py::test_rate_limit_per_ip PASSED
-
-3 passed in 1.42s
-
-$ git commit -am "fix: increase db pool size to handle traffic spike"
-
-[main 7c2e1a9] fix: increase db pool size to handle traffic spike
- 1 file changed, 2 insertions(+), 1 deletion(-)
+                  ── no egress · no package mirror · no second chances ──
 ```
 
 </div>
@@ -102,75 +97,33 @@ $ git commit -am "fix: increase db pool size to handle traffic spike"
 <span class="yellow"></span>
 <span class="green"></span>
 </div>
-<div class="title">~/ci-cd/release-pipeline</div>
+<div class="title">~/stack</div>
 </div>
 
 ```bash
-$ git log --oneline -5 --grep="perf"
+$ cat stack.txt
 
-a3f9c1e perf: batch inference requests, +18% throughput
-7bd2e40 perf: connection pooling for postgres, -12ms avg
-c910af3 perf: redis pipeline for hot-key lookups
-1e6a8b7 perf: async request queue, reduce lock contention
-f402d9c perf: precompute embeddings on write path
+serving      vLLM · NVIDIA Triton · Ollama · CUDA
+models       LLMs · SLMs · VLMs · OCR · embedding · reranking
+retrieval    Qdrant · RAG pipelines
+backend      Python · FastAPI · PostgreSQL · Redis · C++
+platform     Docker · Kubernetes · Linux · NGINX · Git
+observe      Prometheus · Grafana · Loki · Tempo · OpenTelemetry
+frontend     React · JavaScript
 
-$ docker build -t registry.internal/api:v2.4.1 .
+$ ls ~/projects
 
-[+] Building 42.3s (14/14) FINISHED
- => exporting to image                                    0.4s
- => => writing image sha256:9f2a1c...                     0.0s
- => => naming to registry.internal/api:v2.4.1              0.0s
+AI-inference/        self-hosted GPU platform on Kubernetes
+url-shortener/       distributed, sub-100ms under load
+AgroSmart/           soil and yield prediction, Django + ML
+CampusConnect/       MERN admissions portal
 
-$ ./run_tests.sh --coverage
+$ echo $CONTACT
 
-Ran 214 tests in 38.7s
-Coverage: 91%
-All tests passed ✓
-
-$ kubectl rollout status deployment/api-gateway -n prod
-
-Waiting for rollout to finish: 2 of 3 updated replicas are available...
-deployment "api-gateway" successfully rolled out
-
-$ cat postmortems/*.md | grep -c "root cause"
-
-0   # no unresolved incidents on record
+sanchitguptaghj@gmail.com
 ```
+
 </div>
-</div>
-<div class="terminal">
-<div class="terminal-header">
-<div class="buttons">
-<span class="red"></span>
-<span class="yellow"></span>
-<span class="green"></span>
-</div>
-<div class="title">~/infra/inference-cluster</div>
-</div>
-
-```bash
-$ systemctl status ai.service
-● ai.service
-   Active: active (running)
-
-$ kubectl get pods
-api                  Running
-vllm-server-01       Running
-redis-master         Running
-postgres             Running
-
-$ nvidia-smi --query-gpu=index,utilization.gpu,memory.used --format=csv
-
-index, utilization.gpu [%], memory.used [MiB]
-0, 91 %, 22140 MiB
-1, 88 %, 21870 MiB
-
-$ curl localhost:8000/metrics
-
-Throughput : 3.0×
-Latency    : -40%
-Status     : Production
-```
 
 <style>
 .status-bar{
