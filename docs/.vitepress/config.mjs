@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
+import { withMermaid } from "vitepress-plugin-mermaid";
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   // Base URL when deploying
   base: "/site",
 
@@ -73,4 +74,4 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/1-Sanchit-1" },
     ],
   },
-});
+}));

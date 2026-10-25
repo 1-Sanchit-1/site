@@ -30,6 +30,14 @@ Dive into the fascinating world of system design, where **creativity** meets **f
 
 ---
 
+## ⚡ **LLM Inference Optimization**
+
+Visual notes on serving LLMs fast and cheap: prefill vs decode, arithmetic intensity, KV cache math, continuous batching, PagedAttention, FlashAttention, GQA/MLA and FP8/FP4 quantization.
+
+🔗 [**Inference Optimization Notes**](<Inference Optimization/index.md>)
+
+---
+
 ## 🖥️ **Core Concepts**
 
 - [🔗 **Object-Oriented Programming (OOPS)**](OOPS/index.md)  
