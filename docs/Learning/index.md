@@ -30,6 +30,14 @@ Dive into the fascinating world of system design, where **creativity** meets **f
 
 ---
 
+## 🚀 **How LLM Serving Works (vLLM & SGLang)**
+
+A beginner-friendly, picture-first guide: GPU memory, the KV cache, prefill vs decode, batching, PagedAttention, continuous batching, RadixAttention, and why vLLM/SGLang make serving about 6× cheaper. Start here before the deep dive below.
+
+🔗 [**LLM Serving Notes**](<LLM Serving/index.md>)
+
+---
+
 ## ⚡ **LLM Inference Optimization**
 
 Visual notes on serving LLMs fast and cheap: prefill vs decode, arithmetic intensity, KV cache math, continuous batching, PagedAttention, FlashAttention, GQA/MLA and FP8/FP4 quantization.
